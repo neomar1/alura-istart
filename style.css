@@ -58,7 +58,7 @@
     
     .container-aviso{
     font-size: 12px;
-    color: var(--cinza-secundrio);
+    color: var(--cinza-secundario);
     
     }
     
@@ -84,17 +84,33 @@
     }
     
     .secundária-imagem{
-    width: 40%;    
+    width: 80%;    
     }
     
-.descrição-titulo{
+.descrição-título{
 font-weight: 700;
 font-size: 48px;
-color: var(--branco-peincipal);
+color: var(--branco-principal);
 margin-bottom: 0 .1em;
 
 }
 
 .descrição-texto{
-    color: var(--cinza-secundrio);
+    color: var(--cinza-secundario);
+}
+ .secundario{
+    align-items: center;
+    margin: 0 10em;
+ }
+
+.secundario-botão{
+   
+    display: inline-block;
+    margin-top:1em;
+}
+.container-descricão{
+padding: 2em;
+
+
+
 }
