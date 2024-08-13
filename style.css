@@ -114,3 +114,39 @@ padding: 2em;
 
 
 }
+
+.dispositivo__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+
+}
+
+.dispositivo{
+text-align: 48px;
+color: var(--branco-principal);
+
+}
+.lista__item{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+.rodape{
+    text-align: center;
+    margin: 5em 3em ;
+
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1em;
+}
+
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
